@@ -28,7 +28,7 @@ contract Staking {
 
     constructor (IERC20 _token) {
         token = _token;
-        stakeholders.push(); //no staker can have index 0
+        stakeholders.push(); //no stakeholder can have index 0
     }
 
     Stakeholder[] internal stakeholders;                    // actual stakeholder array with their stakes
